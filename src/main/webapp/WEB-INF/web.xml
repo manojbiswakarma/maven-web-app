@@ -1,6 +1,12 @@
 <!DOCTYPE web-app PUBLIC
  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
+ <h1> This is web.xml file</h1>
+ <h2> This is second web.xml file</h2>
+<h3> This is third line</h3>
+<h4> this is fourth line</h4>
+<h5> this fifth line</h5>
+ 
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
