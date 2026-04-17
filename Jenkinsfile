@@ -5,19 +5,19 @@ pipeline {
         maven 'Maven-3.9.9'
     }
     stages {
-        stage('clone') {
+        stage('Git clone') {
             steps {
-              git 'https://github.com/ashokitschool/maven-web-app.git'
+              git 'https://github.com/manojbiswakarma/maven-web-app.git'
             }
         }
-        stage('build'){
+        stage('Maven build'){
             steps{
                  sh 'mvn clean package'
             }
         }
-        stage('docker image'){
+        stage('Docker Image'){
             steps {
-                sh 'docker build -t ashokit/mavenwebapp .'
+                sh 'docker build -t manojbiswakarma/maven-web-app .'
             }
         }
         stage('k8s deploy'){
