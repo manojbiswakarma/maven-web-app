@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ashok IT Courses Demo</title>
+  <title>Manoj needs to learn these Courses Demo</title>
   <style>
     body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -111,7 +111,7 @@
 
   <header>
     <h1>🚀 Manoj needs to learn these Courses</h1>
-    <p>Upgrade your career with our industry-ready training programs</p>
+    <p>Upgrade your career with industry-ready training programs</p>
   </header>
 
   <div class="container">
