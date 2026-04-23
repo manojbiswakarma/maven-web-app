@@ -36,5 +36,4 @@ spec:
   ports:
    - port: 80
      targetPort: 9081
-     nodePort: 31000
 ...
