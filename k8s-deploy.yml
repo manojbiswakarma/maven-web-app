@@ -34,7 +34,7 @@ spec:
   selector:
    app: mavenwebapp
   ports:
-   - port: 80
+   - port: 8082
      targetPort: 8082
-     
+     nodePort: 30001   
 ...
